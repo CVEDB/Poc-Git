@@ -1,6 +1,7 @@
 name: CVEs On Demand
 
 on:
+  workflow_dispatch:
   issues:
     types: [created, edited, labeled]
 
