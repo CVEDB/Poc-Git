@@ -21,7 +21,7 @@ jobs:
       id: trickest
       uses: trickest/action@main
       env:
-        TRICKEST_TOKEN: "${{ secrets.TRICKEST_TOKEN }}"
+        TRICKEST_TOKEN: "${{ secrets.ORG_REPO_TOKEN }}"
       with:
         workflow: "CVE - On Demand"
         space: "CVEs"
