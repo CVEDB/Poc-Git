@@ -7,7 +7,6 @@ on:
 
 jobs:
   execute-cvedb-workflow:
-    if: ${{ github.event.label.name == 'On-Demand' }}
     runs-on: ubuntu-latest
     steps:
 
