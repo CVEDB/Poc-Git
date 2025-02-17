@@ -20,7 +20,7 @@ jobs:
 
     - name: Trickest Execute
       id: trickest
-      uses: trickest/action@main
+      uses: cvedb/action@main
       env:
         TRICKEST_TOKEN: "${{ secrets.ORG_REPO_TOKEN }}"
       with:
